@@ -17,7 +17,7 @@ int main(void)
 	printf("Prime factors of %d: ", number);
 
 	/* Find all prime factors */
-	for(first_iterator = TWO; first_iterator <= number / TWO; first_iterator++)
+	for(first_iterator = TWO; first_iterator <= number; first_iterator++)
 	{
 		/* check if 'first_iterator' is factor of number */
 		if(INT_ZERO == number % first_iterator)
